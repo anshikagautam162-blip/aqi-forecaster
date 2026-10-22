@@ -1,0 +1,8 @@
+model,type,mae_24h,mae_48h,mae_72h,rmse_24h,rmse_48h,rmse_72h,r2_24h,r2_48h,r2_72h,mape_24h,mape_48h,mape_72h,notes
+Persistence Baseline,Baseline,10.723,12.086,14.017,19.936,21.281,24.223,0.6817,0.6314,0.5241,37.13,45.39,50.81,PM2.5(t+h) = PM2.5(t)
+Mean Baseline,Baseline,32.4,32.22,32.242,37.597,37.413,37.415,-0.1322,-0.1394,-0.1354,331.33,330.79,331.44,PM2.5(t+h) = mean(train)
+Climatology Baseline,Baseline,18.336,18.494,18.361,25.919,26.115,25.987,0.4619,0.4449,0.4523,94.74,95.22,94.87,avg same hour same city
+XGBoost,ML Model,9.912,11.078,12.591,17.223,18.913,20.749,0.7624,0.7088,0.6508,37.33,44.52,51.5,"n_estimators=1000, early stopping"
+LSTM + Attention,Deep Learning,11.456,12.05,12.744,19.868,20.331,21.372,0.6842,0.664,0.63,42.78,46.63,50.95,"3-layer LSTM, 4-head attention, GPU T4"
+XGBoost (Optuna Tuned),ML Model,9.868,11.078,12.591,17.1,18.913,20.749,0.7575,0.7088,0.6508,37.1,44.52,51.5,"Bayesian optimization, 50 trials"
+XGBoost (Optuna Tuned),ML Model,9.868,11.078,12.591,17.1,18.913,20.749,0.7575,0.7088,0.6508,37.1,44.52,51.5,"Bayesian optimization, 50 trials"

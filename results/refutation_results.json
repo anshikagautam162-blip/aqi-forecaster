@@ -1,0 +1,14 @@
+{
+  "precipitation": {
+    "original_effect": -6.6452,
+    "placebo_effect": 1.338,
+    "pct_change": 120.14,
+    "verdict": "\u2705 REAL \u2014 placebo drastically different"
+  },
+  "no2": {
+    "original_effect": 1.0788,
+    "placebo_effect": 0.004,
+    "pct_change": 99.63,
+    "verdict": "\u2705 REAL \u2014 placebo drastically different"
+  }
+}

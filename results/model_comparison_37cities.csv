@@ -1,0 +1,7 @@
+model,type,cities,mae_24h,mae_48h,mae_72h,r2_24h,notes
+Persistence Baseline,Baseline,37,9.584,11.195,12.304,,PM2.5(t+h) = PM2.5(t)
+Mean Baseline,Baseline,37,25.638,25.707,25.643,,PM2.5(t+h) = train mean
+Climatology Baseline,Baseline,37,15.001,14.978,14.962,,avg same hour same city
+XGBoost (37 cities),ML Model,37,8.659,9.794,10.195,0.7213,"Optuna tuned, 325K rows"
+LSTM+Attention (7 cities),Deep Learning,7,11.456,12.05,12.744,0.6842,"3-layer LSTM, GPU T4, 50 epochs"
+LSTM+Attention (37 cities),Deep Learning,37,,,,,Training pending — Kaggle GPU

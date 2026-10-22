@@ -1,0 +1,20 @@
+{
+  "confirmed_domain_edges": [
+    "no2 \u2192 pm25",
+    "temperature \u2192 humidity",
+    "humidity \u2192 precipitation"
+  ],
+  "new_valid_edges": [
+    "no2 \u2192 co (corr=0.577)",
+    "temperature \u2192 o3 (corr=0.589)",
+    "humidity \u2192 o3 (corr=-0.498)",
+    "no2 \u2192 o3 (corr=-0.469)"
+  ],
+  "rejected_edges": [
+    "humidity \u2192 wind_speed (too weak)",
+    "wind_speed \u2192 precipitation (too weak)",
+    "temperature \u2192 pressure (too weak)",
+    "no2 \u2192 wind_speed (direction reversed)",
+    "wind_speed \u2192 co (direction reversed)"
+  ]
+}

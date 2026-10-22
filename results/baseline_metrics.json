@@ -1,0 +1,146 @@
+[
+  {
+    "model": "Persistence_Val",
+    "horizon": "24h",
+    "mae": 10.723,
+    "rmse": 19.936,
+    "r2": 0.6817,
+    "mape": 37.13
+  },
+  {
+    "model": "Persistence_Test",
+    "horizon": "24h",
+    "mae": 13.643,
+    "rmse": 22.593,
+    "r2": 0.622,
+    "mape": 50.4
+  },
+  {
+    "model": "Persistence_Val",
+    "horizon": "48h",
+    "mae": 12.086,
+    "rmse": 21.281,
+    "r2": 0.6314,
+    "mape": 45.39
+  },
+  {
+    "model": "Persistence_Test",
+    "horizon": "48h",
+    "mae": 16.259,
+    "rmse": 25.837,
+    "r2": 0.5137,
+    "mape": 57.95
+  },
+  {
+    "model": "Persistence_Val",
+    "horizon": "72h",
+    "mae": 14.017,
+    "rmse": 24.223,
+    "r2": 0.5241,
+    "mape": 50.81
+  },
+  {
+    "model": "Persistence_Test",
+    "horizon": "72h",
+    "mae": 16.924,
+    "rmse": 27.064,
+    "r2": 0.4694,
+    "mape": 57.98
+  },
+  {
+    "model": "Mean_Val",
+    "horizon": "24h",
+    "mae": 32.4,
+    "rmse": 37.597,
+    "r2": -0.1322,
+    "mape": 331.33
+  },
+  {
+    "model": "Mean_Test",
+    "horizon": "24h",
+    "mae": 31.348,
+    "rmse": 37.573,
+    "r2": -0.0455,
+    "mape": 269.17
+  },
+  {
+    "model": "Mean_Val",
+    "horizon": "48h",
+    "mae": 32.22,
+    "rmse": 37.413,
+    "r2": -0.1394,
+    "mape": 330.79
+  },
+  {
+    "model": "Mean_Test",
+    "horizon": "48h",
+    "mae": 31.511,
+    "rmse": 37.788,
+    "r2": -0.0403,
+    "mape": 267.82
+  },
+  {
+    "model": "Mean_Val",
+    "horizon": "72h",
+    "mae": 32.242,
+    "rmse": 37.415,
+    "r2": -0.1354,
+    "mape": 331.44
+  },
+  {
+    "model": "Mean_Test",
+    "horizon": "72h",
+    "mae": 31.487,
+    "rmse": 37.866,
+    "r2": -0.0388,
+    "mape": 265.15
+  },
+  {
+    "model": "Climatology_Val",
+    "horizon": "24h",
+    "mae": 18.336,
+    "rmse": 25.919,
+    "r2": 0.4619,
+    "mape": 94.74
+  },
+  {
+    "model": "Climatology_Test",
+    "horizon": "24h",
+    "mae": 16.551,
+    "rmse": 25.188,
+    "r2": 0.5301,
+    "mape": 73.89
+  },
+  {
+    "model": "Climatology_Val",
+    "horizon": "48h",
+    "mae": 18.494,
+    "rmse": 26.115,
+    "r2": 0.4449,
+    "mape": 95.22
+  },
+  {
+    "model": "Climatology_Test",
+    "horizon": "48h",
+    "mae": 16.457,
+    "rmse": 25.167,
+    "r2": 0.5385,
+    "mape": 73.07
+  },
+  {
+    "model": "Climatology_Val",
+    "horizon": "72h",
+    "mae": 18.361,
+    "rmse": 25.987,
+    "r2": 0.4523,
+    "mape": 94.87
+  },
+  {
+    "model": "Climatology_Test",
+    "horizon": "72h",
+    "mae": 16.549,
+    "rmse": 25.372,
+    "r2": 0.5336,
+    "mape": 72.71
+  }
+]

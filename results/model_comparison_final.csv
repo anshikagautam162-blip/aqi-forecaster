@@ -1,0 +1,9 @@
+model,type,cities,mae_24h,mae_48h,mae_72h,r2_24h,r2_48h,r2_72h,split,notes
+Persistence Baseline,Baseline,37,9.584,11.195,12.304,,,,val,PM2.5(t+h) = PM2.5(t)
+Mean Baseline,Baseline,37,25.638,25.707,25.643,,,,val,PM2.5 = train mean
+Climatology Baseline,Baseline,37,15.001,14.978,14.962,,,,val,avg same hour same city
+XGBoost 7 cities,ML Model,7,9.912,11.078,12.591,0.762,0.709,0.651,val,Optuna tuned
+XGBoost 7 cities (Optuna),ML Model,7,9.868,11.078,12.591,0.757,0.709,0.651,val,Bayesian optimization 50 trials
+LSTM+Attention 7 cities,Deep Learning,7,11.456,12.05,12.744,0.684,0.664,0.63,val,"3-layer LSTM, GPU T4, 50 epochs"
+XGBoost 37 cities ⭐,ML Model,37,8.659,9.794,10.195,0.721,0.668,0.64,val,"Optuna params, 325K rows"
+LSTM+Attention 37 cities,Deep Learning,37,9.32,9.736,10.201,0.6448,0.6294,0.5829,val,"3-layer LSTM, dropout=0.3, GPU T4, 75 epochs"

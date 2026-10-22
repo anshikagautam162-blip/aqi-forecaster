@@ -1,0 +1,103 @@
+{
+  "edges_found": 16,
+  "confirmed": 3,
+  "new_edges": 13,
+  "questionable": 0,
+  "edges": [
+    [
+      "no2",
+      "pm25",
+      "directed"
+    ],
+    [
+      "temperature",
+      "humidity",
+      "directed"
+    ],
+    [
+      "humidity",
+      "wind_speed",
+      "directed"
+    ],
+    [
+      "no2",
+      "wind_speed",
+      "directed"
+    ],
+    [
+      "humidity",
+      "precipitation",
+      "directed"
+    ],
+    [
+      "wind_speed",
+      "precipitation",
+      "directed"
+    ],
+    [
+      "temperature",
+      "pressure",
+      "directed"
+    ],
+    [
+      "humidity",
+      "pressure",
+      "directed"
+    ],
+    [
+      "wind_speed",
+      "pressure",
+      "directed"
+    ],
+    [
+      "no2",
+      "pressure",
+      "directed"
+    ],
+    [
+      "temperature",
+      "co",
+      "directed"
+    ],
+    [
+      "wind_speed",
+      "co",
+      "directed"
+    ],
+    [
+      "no2",
+      "co",
+      "directed"
+    ],
+    [
+      "temperature",
+      "o3",
+      "directed"
+    ],
+    [
+      "humidity",
+      "o3",
+      "directed"
+    ],
+    [
+      "no2",
+      "o3",
+      "directed"
+    ]
+  ],
+  "confirmed_edges": [
+    [
+      "no2",
+      "pm25"
+    ],
+    [
+      "temperature",
+      "humidity"
+    ],
+    [
+      "humidity",
+      "precipitation"
+    ]
+  ],
+  "rejected_edges": []
+}
