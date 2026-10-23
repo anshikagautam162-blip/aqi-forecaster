@@ -514,14 +514,14 @@ c1.metric("🌫️ PM2.5",
 c2.metric("💨 PM10",
           f"{float(live_data.get('pm10') or 0):.0f}","µg/m³")
 c3.metric("🌡️ Temp",
-          f"{live_data.get('temperature') or 'N/A'}","°C")
+          f"{float(live_data.get('temperature') or 0):.1f}","°C")
 c4.metric("💧 Humidity",
-          f"{live_data.get('humidity') or 'N/A'}","%")
+          f"{float(live_data.get('humidity') or 0):.1f}","%")
 c5.metric("💨 Wind",
           f"{float(live_data.get('wind') or 0):.1f}",
           "km/h")
 c6.metric("🔵 NO2",
-          f"{live_data.get('no2') or 'N/A'}","µg/m³")
+          f"{float(live_data.get('no2') or 0):.1f}","µg/m³")
 
 st.caption(
     f"📍 {live_data.get('station','Unknown')} · "
