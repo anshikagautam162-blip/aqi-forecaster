@@ -12,7 +12,11 @@ import numpy as np
 import requests
 import pickle
 import json
-import shap
+try:
+    import shap
+    SHAP_AVAILABLE = True
+except ImportError:
+    SHAP_AVAILABLE = False
 import plotly.graph_objects as go
 import folium
 from streamlit_folium import st_folium
