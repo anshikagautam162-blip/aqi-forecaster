@@ -1,7 +1,9 @@
 import os
-import time
-from dotenv import load_dotenv
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 WAQI_TOKEN_DEFAULT = os.getenv('WAQI_TOKEN', '')
 
 import streamlit as st
