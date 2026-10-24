@@ -113,5 +113,5 @@ See [`docs/causal_findings.md`](docs/causal_findings.md) for detailed causal ana
 ---
 
 ## 👩‍💻 Author
-
+Data Science researcher passionate about environmental ML.
 Demonstrates: end-to-end ML pipeline, causal inference, deep learning, production deployment.
